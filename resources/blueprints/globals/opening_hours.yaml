@@ -1,0 +1,73 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          input_type: text
+          antlers: false
+          default: 'Opening Hours'
+          display: Title
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: opening_hours
+        field:
+          fields:
+            -
+              handle: text_1
+              field:
+                input_type: text
+                antlers: false
+                default: 'Mon - Fri'
+                display: 'Text 1'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+            -
+              handle: text_2
+              field:
+                input_type: text
+                antlers: false
+                default: '8:00am - 9:00pm'
+                display: 'Text 2'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+          mode: table
+          reorderable: true
+          display: 'Opening Hours'
+          type: grid
+          icon: grid
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: button_link
+        field:
+          display: 'Button LInk'
+          type: link
+          icon: link
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: link_text
+        field:
+          input_type: text
+          antlers: false
+          default: Appointment
+          display: 'Link Text'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible

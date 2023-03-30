@@ -1,0 +1,59 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: content
+        field:
+          antlers: true
+          default: |-
+            <h1 class="text-white mb-4">Make Appointment</h1>
+                                    <form>
+                                        <div class="row g-3">
+                                            <div class="col-12 col-sm-6">
+                                                <select class="form-select bg-light border-0" style="height: 55px;">
+                                                    <option selected>Select A Service</option>
+                                                    <option value="1">Service 1</option>
+                                                    <option value="2">Service 2</option>
+                                                    <option value="3">Service 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <select class="form-select bg-light border-0" style="height: 55px;">
+                                                    <option selected>Select Doctor</option>
+                                                    <option value="1">Doctor 1</option>
+                                                    <option value="2">Doctor 2</option>
+                                                    <option value="3">Doctor 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <div class="date" id="date1" data-target-input="nearest">
+                                                    <input type="text"
+                                                        class="form-control bg-light border-0 datetimepicker-input"
+                                                        placeholder="Appointment Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <div class="time" id="time1" data-target-input="nearest">
+                                                    <input type="text"
+                                                        class="form-control bg-light border-0 datetimepicker-input"
+                                                        placeholder="Appointment Time" data-target="#time1" data-toggle="datetimepicker" style="height: 55px;">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="btn btn-dark w-100 py-3" type="submit">Make Appointment</button>
+                                            </div>
+                                        </div>
+                                    </form>
+          display: Content
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible

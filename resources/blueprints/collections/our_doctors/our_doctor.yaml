@@ -1,0 +1,95 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          display: 'Doctor Name'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+      -
+        handle: doctor_image
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Doctor Image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: designation
+        field:
+          input_type: text
+          antlers: false
+          display: Designation
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: social_media
+        field:
+          fields:
+            -
+              handle: social_media_icon
+              field:
+                options:
+                  fa-twitter: Twitter
+                  fa-facebook-f: Facebook
+                  fa-linkedin-in: Linkedin
+                  fa-instagram: Instagram
+                multiple: false
+                clearable: false
+                searchable: true
+                taggable: false
+                push_tags: false
+                cast_booleans: false
+                display: 'Social Media'
+                type: select
+                icon: select
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+            -
+              handle: social_media_url
+              field:
+                input_type: text
+                antlers: false
+                display: 'Social Media URL'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+          mode: table
+          reorderable: true
+          display: 'Social Media'
+          type: grid
+          icon: grid
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+title: 'Our Doctor'

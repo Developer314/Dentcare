@@ -1,0 +1,18 @@
+title: 'Opening Hours'
+data:
+  title: 'Opening Hours'
+  opening_hours:
+    -
+      id: lf80rgjt
+      text_1: 'Mon - Fri'
+      text_2: '8:00am - 9:00pm'
+    -
+      id: lf80rhr6
+      text_1: Saturday
+      text_2: '8:00am - 1:00pm'
+    -
+      id: lf80ry9h
+      text_1: Sunday
+      text_2: '8:00am - 2:00pm'
+  button_link: 'entry::035efaf2-3446-44b7-86e7-61a0f508dce3'
+  link_text: Appointment

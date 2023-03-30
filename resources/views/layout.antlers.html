@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+	<style>
+	:root {
+    --primary: {{styles:primary_color}};
+    --secondary: {{styles:secondary_color}};
+    --light: {{styles:light_color}};
+    --dark: {{styles:dark_color}};
+}
+</style>
+	
+	
+	
+    {{header:header_extra}}
+    
+</head>
+
+<body>
+    
+    {{header:spinner_template}}
+
+
+    {{header:topbar_template}}
+    
+    {{header:navbar_template}}
+    
+    
+    {{ template_content }} 
+    
+    
+    
+   
+    
+    
+ {{footer:footer_template}}
+
+
+   {{footer:footer_extra}}
+</body>
+
+</html>

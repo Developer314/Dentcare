@@ -1,0 +1,40 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title_1
+        field:
+          input_type: text
+          antlers: false
+          default: 'Make Appointment'
+          display: 'Title 1'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: title_2
+        field:
+          input_type: text
+          antlers: false
+          default: 'Ipsum erat ipsum dolor clita rebum no rebum dolores labore, ipsum magna at eos et eos amet.'
+          display: 'Title 2'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: title_3
+        field:
+          input_type: text
+          antlers: false
+          default: '+918907289865'
+          display: 'Title 3'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
