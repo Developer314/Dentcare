@@ -73,7 +73,7 @@ data:
   navbar_template: |-
     <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-            <a href="{{url}}" class="navbar-brand p-0">
+            <a href="/" class="navbar-brand p-0">
                 <img src="{{header:site_logo}}" alt="{{header:logo_alt}}" style="width: 50%" /><!--<i class="fa fa-tooth me-2"></i>DentCare-->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
