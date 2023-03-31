@@ -1,9 +1,9 @@
 {
-    "name": "my-vendor-name/starter-kit",
+    "name": "developer314/dentcare",
     "extra": {
         "statamic": {
-            "name": "Starter Kit",
-            "description": "Starter Kit starter kit"
+            "name": "Developer 314 Dentcare",
+            "description": "Developer 314 Dentcare starter kit"
         }
     }
 }
